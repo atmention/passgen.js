@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Password Generator</h1>
+    </header>
+    <div class="card">
+      <div class="card-header">
+        <h2>Choose Your Options</h2>
+      </div>
+      <div class="card-body">
+      <div class="options">
+
+      <div class="options-row">
+      <div class="len-chboxtext">Password Length:</div>
+      <div class="len-chbox"><input type="range" min="8" max="128" value="16" class="slider" id="chooseLength"><div class="input-container"><input value="16" id="numLength"></div></div>
+      </div>
+
+      <div class="options-row">
+      <div class="chboxtext">Allow Lowercase Letters:</div>
+      <div class="chbox"><input name="Lowercase" type="checkbox" id="Lowercase"><label>( ex: abc )</label></div>
+      </div>
+
+      <div class="options-row">
+      <div class="chboxtext">Allow Uppercase Letters:</div>
+      <div class="chbox"><input name="Uppercase" type="checkbox" id="Uppercase"><label>( ex: ABC )</label></div>
+      </div>
+
+      <div class="options-row">
+      <div class="chboxtext">Allow Numbers:</div>
+      <div class="chbox"><input name="Numbers" type="checkbox" id="Numbers"><label>( ex: 1234 )</label></div>
+      </div>
+
+      <div class="options-row">
+      <div class="chboxtext">Allow Symbols:</div>
+      <div class="chbox"><input name="Special" type="checkbox" id="Special"><label>( ex: !"#$%&' )</label></div>
+      </div>
+
+    </div>
+  </div>
+      </div>
+      <div class="card-footer">
       </div>
     </div>
-    <script src="/assets/js/script.js"></script>
-  </body>
+  </div>
+    <div class="card">
+      <div class="card-header">
+        <h2>Generate a Password</h2>
+      </div>
+      <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <div class="card-footer">
+        <button id="generate" class="btn">Generate Password</button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
