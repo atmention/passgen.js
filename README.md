@@ -1,92 +1,89 @@
-# 03 JavaScript: Password Generator
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Your Task
 
-This week’s homework requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## User Story
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
 
-## Acceptance Criteria
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://atmention.github.io/passgen.js/">
+    <img src="Assets/images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+<h3 align="center">Passgen</h3>
 
-## Mock-Up
+  <p align="center">
+    Password Generator
+    <br />
+    <a href="https://atmention.github.io/passgen.js/">View Demo</a>
+    ·
+    <a href="https://atmention.github.io/passgen.js/issues">Report Bug</a>
+    ·
+    <a href="https://atmention.github.io/passgen.js/issues">Request Feature</a>
+  </p>
+</div>
 
-The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
-## Grading Requirements
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-This homework is graded based on the following criteria: 
+[![Product Name Screen Shot][product-screenshot]](https://atmention.github.io/passgen.js/)
 
-### Technical Acceptance Criteria: 40%
+Check at least one of the following boxes:
+* Lowercase
+* Uppercase
+* Numbers
+* Symbols
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-### Deployment: 32%
+* Ben Koenig worked on this project with me. [![LinkedIn][linkedin-shield]][linkedin-url-ben]
 
-* Application deployed at live URL.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-* Application loads with no errors.
 
-* Application GitHub URL submitted.
 
-* GitHub repository that contains application code.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/atmention/passgen.js.svg?style=for-the-badge
+[contributors-url]: https://github.com/atmention/passgen.js/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/atmention/passgen.js.svg?style=for-the-badge
+[forks-url]: https://github.com/atmention/passgen.js/network/members
+[stars-shield]: https://img.shields.io/github/stars/atmention/passgen.js.svg?style=for-the-badge
+[stars-url]: https://github.com/atmention/passgen.js/stargazers
+[issues-shield]: https://img.shields.io/github/issues/atmention/passgen.js.svg?style=for-the-badge
+[issues-url]: https://github.com/atmention/passgen.js/issues
+[license-shield]: https://img.shields.io/github/license/atmention/passgen.js.svg?style=for-the-badge
+[license-url]: https://github.com/atmention/passgen.js/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
+[linkedin-url-ben]: https://www.linkedin.com/in/bk09/
+[product-screenshot]: Assets/images/screenshot.png
 
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
