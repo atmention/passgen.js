@@ -81,7 +81,7 @@ Check at least one of the following boxes:
 [issues-shield]: https://img.shields.io/github/issues/atmention/passgen.js.svg?style=for-the-badge
 [issues-url]: https://github.com/atmention/passgen.js/issues
 [license-shield]: https://img.shields.io/github/license/atmention/passgen.js.svg?style=for-the-badge
-[license-url]: https://github.com/atmention/passgen.js/blob/master/LICENSE.txt
+[license-url]: https://github.com/atmention/passgen.js/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/tim-carrier-9a2a9a22/
 [linkedin-url-ben]: https://www.linkedin.com/in/bk09/
